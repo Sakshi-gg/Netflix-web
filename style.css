@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.banner-section img {
+    width: 99vw;
+    height: 95vh;
+    object-position: center;
+    object-fit: cover;
+    position: relative;
+    }
+
+.banner-section .main-img{
+    position: relative;
+    }
+
+.logo{
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    top: 40px;
+    left: 50px;
+    top: 7.5%;
+    margin-left: 100px;
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    z-index: 100;
+    color: white;
+    font-size: 38px;
+    left: 9%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px; 
+    gap:10px
+}
+
+.inputs input{
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    border: 1px solid white;
+    background-color: transparent
+}
+
+.inputs button{
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.sign{
+    position: absolute;
+    top: 8.5%;
+    right: 5%;
+    font-size: 16px;
+    background-color: red;
+    padding: 10px;
+    margin-right: 100px;   
+}
+.main-img{
+    filter: brightness(0.4);
+}
+
+.second-block{
+    display: flex;
+    height: 60vh;
+    margin-bottom: 5px;  
+}
+
+.second-block .sub-img img{
+    width: 50vw;
+    height: 100%;  
+}
+
+.second-block .subtext{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 22px;
+    color: white;
+    gap: 10px;    
+}
+
+.questions{
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding-top: 80px;
+    font-size: 26px;
+}
+
+.subq{
+    background-color:grey;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 20px;
+    width: 70%;
+    margin-left: 230px;
+}
+
+.subq p{
+    display: none;
+}
+
+.subq:hover p{
+    display: block;
+}
+
+.subq h2{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px ;
+}
+
+.subq:hover .symbol{
+    transform: rotate(45deg);
+}
+
+.third-block{
+    display: flex;
+    height: 60vh;
+    margin-bottom: 3px;  
+}
+
+.third-block .simg img{
+    width: 50vw;
+    height: 100%;
+}
+
+.third-block .subtxt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 22px;
+    color: white;
+    gap: 10px; 
+}
+
+.fourth-block{
+    display: flex;
+    height: 60vh;
+    margin-bottom: 3px;  
+}
+
+.fourth-block .sbimg img{
+    width: 50vw;
+    height: 100%;
+}
+
+.fourth-block .stxt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    gap: 10px;  
+}
+
+.fifth-block{
+    display: flex;
+    height: 60vh;
+    margin-bottom: 3px; 
+}
+
+.fifth-block .imgs img{
+    width: 50vw;
+    height: 100%;
+}
+
+.fifth-block .txtsub{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 22px; 
+}
+
+.logintxt{ 
+    z-index: 100;
+    color: white;
+    font-size: 15px;
+    left: 9%;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 3px;
+     background-color: black;
+     padding: 30px;
+     padding-bottom: 70px;
+}
+
+.eml{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 430px;
+    gap:10px;
+}
+
+.eml input{
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    color: white;
+    background-color: black
+
+    
+}
+
+.eml button{
+    width: 160px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    text-align: center; 
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    box-sizing: content-box;
+    width: 100%; 
+}
+
+table{
+margin-left: 50px;
+}
+
+td{
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 150px;   
+}
+
+td a{
+    color: white;
+}
+
+select{
+margin-left: 130px;
+background-color: grey;
+margin-top: 20px;
+padding: 5px;
+}
+
+.tbl{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    box-sizing: content-box;
+}
+
+.lst{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    box-sizing: content-box;
+    padding-top: 35px;
+    padding-bottom: 80px; 
+}
+
+.i{
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 10px;
+    margin-right: 200px;
+    color: white;
+}
+
+.q{
+    margin-left: 130px;
+}
+
+.n{
+    margin-left: 130px;
+}
